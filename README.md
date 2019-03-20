@@ -1,10 +1,16 @@
-# Tintin-lee
+# **Tintin-lee** #
+## Integrantes ##
+----------
 
-## La resurrección
-![](https://media.beliefnet.com/~/media/espanol/2017/enero/oraciones/foto%201.png?as=1&w=400)
+* [**Jesús Orlando Montoya Mejía**](https://github.com/MGsus)
+    * Estudiante Ingeniería de Sistemas e Informática en la Universidad Pontificia Bolivariana Seccional Bucaramanga
+    
 
-### Integrantes
-* Jesús
-* Maria
+* [**Maria Andrea Claro**](https://github.com/dreclaro)
+    * Ingeniera Electrónica
+    * Estudiante Ingeniería de Sistemas e Informática en la Universidad Pontificia Bolivariana Seccional Bucaramanga
 
-[Visitar página](https://mgsus.github.io/Tintin-lee/)
+
+[Página Web Tintín lee](https://mgsus.github.io/Tintin-lee/)
+
+----------
