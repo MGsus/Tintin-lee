@@ -1,6 +1,5 @@
 # **Tintin-lee** #
 ## Integrantes ##
-----------
 
 * [**Jesús Orlando Montoya Mejía**](https://github.com/MGsus)
     * Estudiante Ingeniería de Sistemas e Informática en la Universidad Pontificia Bolivariana Seccional Bucaramanga
