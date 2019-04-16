@@ -403,6 +403,7 @@ GameObject:
   - component: {fileID: 352897081}
   - component: {fileID: 352897083}
   - component: {fileID: 352897082}
+  - component: {fileID: 352897084}
   m_Layer: 0
   m_Name: BtnAlegre
   m_TagString: Untagged
@@ -506,6 +507,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &352897084
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 352897080}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f77572f8edbb10f47975a240aae0a074, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneName: 
 --- !u!1 &408795366
 GameObject:
   m_ObjectHideFlags: 0
@@ -517,6 +531,7 @@ GameObject:
   - component: {fileID: 408795367}
   - component: {fileID: 408795369}
   - component: {fileID: 408795368}
+  - component: {fileID: 408795370}
   m_Layer: 0
   m_Name: BtnGrosera
   m_TagString: Untagged
@@ -620,6 +635,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &408795370
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 408795366}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f77572f8edbb10f47975a240aae0a074, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneName: 
 --- !u!1 &554104746
 GameObject:
   m_ObjectHideFlags: 0
@@ -631,6 +659,7 @@ GameObject:
   - component: {fileID: 554104747}
   - component: {fileID: 554104749}
   - component: {fileID: 554104748}
+  - component: {fileID: 554104750}
   m_Layer: 0
   m_Name: BtnJuiciosa
   m_TagString: Untagged
@@ -734,6 +763,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &554104750
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 554104746}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f77572f8edbb10f47975a240aae0a074, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneName: 
 --- !u!1 &597035021
 GameObject:
   m_ObjectHideFlags: 0
@@ -1701,7 +1743,7 @@ GameObject:
   - component: {fileID: 1674077760}
   m_Layer: 0
   m_Name: BtnOlvidadiza
-  m_TagString: Untagged
+  m_TagString: Olvidadiza
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1811,7 +1853,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1674077756}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 324b36f2ac8317236b77ba14216eece6, type: 3}
+  m_Script: {fileID: 11500000, guid: f77572f8edbb10f47975a240aae0a074, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   sceneName: Clarita7
@@ -1826,6 +1868,7 @@ GameObject:
   - component: {fileID: 1851246491}
   - component: {fileID: 1851246493}
   - component: {fileID: 1851246492}
+  - component: {fileID: 1851246494}
   m_Layer: 0
   m_Name: BtnGenerosa
   m_TagString: Untagged
@@ -1929,6 +1972,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1851246494
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1851246490}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f77572f8edbb10f47975a240aae0a074, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneName: 
 --- !u!1 &1915580259
 GameObject:
   m_ObjectHideFlags: 0
@@ -2019,6 +2075,7 @@ GameObject:
   - component: {fileID: 1930655021}
   - component: {fileID: 1930655023}
   - component: {fileID: 1930655022}
+  - component: {fileID: 1930655024}
   m_Layer: 0
   m_Name: BtnAmable
   m_TagString: Untagged
@@ -2122,3 +2179,16 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1930655024
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1930655020}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f77572f8edbb10f47975a240aae0a074, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneName: 
