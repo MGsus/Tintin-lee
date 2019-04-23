@@ -6,20 +6,21 @@ public class NextScene : MonoBehaviour
     public string sceneName;
 
     // Start is called before the first frame update
-    void Start()
+    private void Start()
     {
-        
     }
 
     // Update is called once per frame
-    void Update()
+    private void Update()
     {
-
     }
 
     private void OnMouseOver()
     {
-        // Play Animation
+    }
+
+    private void OnMouseExit()
+    {
     }
 
     private void OnMouseDown()
