@@ -320,9 +320,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9be717a1d5fe443efa2e7eec623b36a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  clarita: {fileID: 504544407}
   rightTearPrefab: {fileID: 3962284532508638754, guid: f62aae0f28f803d1f82d6984216c4bdd,
     type: 3}
-  leftTearPrefab: {fileID: 0}
+  leftTearPrefab: {fileID: 5710915602586495728, guid: 6f0e0b96fcda8c0b087f6eea2131bb02,
+    type: 3}
 --- !u!1 &504544407
 GameObject:
   m_ObjectHideFlags: 0
