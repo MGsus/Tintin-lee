@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class SunScript : MonoBehaviour
 {
@@ -15,17 +13,40 @@ public class SunScript : MonoBehaviour
     void FixedUpdate()
     {
         this.transform.Rotate(Vector3.forward, Time.deltaTime * 30f);
-        print(_cont);
-        if (_cont > 60)
+        _cont++;
+        switch (_cont)
         {
-            this.transform.localScale = new Vector3(1.1f, 1.1f);
-            if (_cont == 120)
+            case 10:
+                this.transform.localScale = new Vector3(1.01f, 1.01f);
+                break;
+            case 20:
+                this.transform.localScale = new Vector3(1.02f, 1.02f);
+                break;
+            case 30:
+                this.transform.localScale = new Vector3(1.03f, 1.03f);
+                break;
+            case 40:
+                this.transform.localScale = new Vector3(1.04f, 1.04f);
+                break;
+            case 50:
+                this.transform.localScale = new Vector3(1.05f, 1.05f);
+                break;
+            case 60:
+                this.transform.localScale = new Vector3(1.04f, 1.04f);
+                break;
+            case 70:
+                this.transform.localScale = new Vector3(1.03f, 1.03f);
+                break;
+            case 80:
+                this.transform.localScale = new Vector3(1.02f, 1.02f);
+                break;
+            case 90:
+                this.transform.localScale = new Vector3(1.01f, 1.01f);
+                break;
+            case 100:
+                this.transform.localScale = new Vector3(1f, 1f);
                 _cont = 0;
-        }
-        else
-        {
-            _cont++;
-            this.transform.localScale = new Vector3(1f, 1f);
+                break;
         }
     }
 }
