@@ -23,20 +23,32 @@ public class NextScene : MonoBehaviour
         if (this)
         {
             var _tNow = Time.time;
-            if (_tNow > _tIni)
+            if (CompareTag("NextBtn"))
             {
-                _tIni = _tNow + DeltaT;
-                this.transform.position = new Vector3(4.09f, -1.91f);
+                if (_tNow > _tIni)
+                {
+                    _tIni = _tNow + DeltaT;
+                    transform.position = new Vector3(4.62f, -1.91f);
+                }
+                else
+                    transform.position = new Vector3(4.39f, -1.91f);
             }
             else
             {
-                this.transform.position = new Vector3(4.39f, -1.91f);
+                if (_tNow > _tIni)
+                {
+                    _tIni = _tNow + DeltaT;
+                    transform.position = new Vector3(2.31f, -1.91f);
+                }
+                else
+                    transform.position = new Vector3(2.50f, -1.91f);
             }
         }
     }
 
     private void OnMouseExit()
     {
+        transform.position = CompareTag("NextBtn") ? new Vector3(4.62f, -1.91f) : new Vector3(2.31f, -1.91f);
     }
 
     private void OnMouseDown()

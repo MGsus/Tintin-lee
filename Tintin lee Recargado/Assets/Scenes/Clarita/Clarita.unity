@@ -224,7 +224,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 380ee1512ff8749469939243d99b7317, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Thickness: 5
+  Thickness: 10
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0
