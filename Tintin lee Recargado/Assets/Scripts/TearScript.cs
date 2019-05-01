@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class RightTearScript : MonoBehaviour
+public class TearScript : MonoBehaviour
 {
     private const float FallSpeed = 0.005f;
     private Vector3 _position;

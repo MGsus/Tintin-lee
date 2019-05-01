@@ -302,7 +302,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 353336369}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.17, y: 1.42, z: 0}
+  m_LocalPosition: {x: -0.21, y: 1.54, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1505771574}
@@ -320,7 +320,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9be717a1d5fe443efa2e7eec623b36a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clarita: {fileID: 504544407}
   rightTearPrefab: {fileID: 3962284532508638754, guid: f62aae0f28f803d1f82d6984216c4bdd,
     type: 3}
   leftTearPrefab: {fileID: 5710915602586495728, guid: 6f0e0b96fcda8c0b087f6eea2131bb02,
