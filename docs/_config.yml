@@ -1,8 +1,9 @@
-title: Tintín lee
-author: Jesús Orlando Montoya - Maria Andrea Claro
+title: "Tintín lee"
+author: "Jesús Orlando Montoya - Maria Andrea Claro"
 email: jesus.montoya.2017@upb.edu.co
 description: > # this means to ignore newlines until "show_exerpts:"
   Tintin lee
+
 show_excerpts: false # set to true to show excerpts on the homepage
 
 # Minima date format
@@ -12,9 +13,7 @@ minima:
 
   # generate social links in footer
   social_links:
-    twitter: jekyllrb
     github:  jekyll
-    rss: rss
     # dribbble: jekyll
     # facebook: jekyll
     # flickr:   jekyll
@@ -37,12 +36,13 @@ minima:
 
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
-#header_pages:
-# - about.md
+header_pages:
+ - about.md
+ - codigo.md
 
 # Build settings
 theme: minima
 
 plugins:
  - jekyll-feed
-- jekyll-seo-tag
+ - jekyll-seo-tag
