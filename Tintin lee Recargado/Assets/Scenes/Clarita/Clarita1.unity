@@ -662,7 +662,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 380ee1512ff8749469939243d99b7317, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Thickness: 10
+  Thickness: 5
 --- !u!1 &818224688
 GameObject:
   m_ObjectHideFlags: 0
@@ -1321,7 +1321,7 @@ GameObject:
   - component: {fileID: 1926372236}
   m_Layer: 0
   m_Name: NextBtn
-  m_TagString: Untagged
+  m_TagString: NextBtn
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
