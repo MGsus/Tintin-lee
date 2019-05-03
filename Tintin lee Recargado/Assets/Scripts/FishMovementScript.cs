@@ -92,83 +92,109 @@ public class FishMovementScript : MonoBehaviour
                 // Start Jump Animation
                 case 105:
                     pez1Transform.position = new Vector3(-3.99f, -1.2f, 0f);
+                    pez1Transform.rotation = Quaternion.Euler(new Vector3(0f,0f,1f));
                     break;
                 case 110:
                     pez1Transform.position = new Vector3(-3.99f, -1.1f, 0f);
+                    pez1Transform.rotation = Quaternion.Euler(new Vector3(0f,0f,1f));
                     break;
                 case 115:
                     pez1Transform.position = new Vector3(-3.99f, -1f, 0f);
+                    pez1Transform.rotation = Quaternion.Euler(new Vector3(0f,0f,2f));
                     break;
                 case 120:
                     pez1Transform.position = new Vector3(-3.99f, -0.9f, 0f);
+                    pez1Transform.rotation = Quaternion.Euler(new Vector3(0f,0f,2f));
                     break;
                 case 125:
                     pez1Transform.position = new Vector3(-3.99f, -0.8f, 0f);
+                    pez1Transform.rotation = Quaternion.Euler(new Vector3(0f,0f,10f));
                     break;
                 case 130:
                     pez1Transform.position = new Vector3(-3.99f, -0.7f, 0f);
+                    pez1Transform.rotation = Quaternion.Euler(new Vector3(0f,0f,0f));
                     break;
                 case 135:
                     pez1Transform.position = new Vector3(-3.99f, -0.6f, 0f);
+                    pez1Transform.rotation = Quaternion.Euler(new Vector3(0f,0f,10f));
                     break;
                 case 140:
                     pez1Transform.position = new Vector3(-3.99f, -0.5f, 0f);
+                    pez1Transform.rotation = Quaternion.Euler(new Vector3(0f,0f,0f));
                     break;
                 case 145:
                     pez1Transform.position = new Vector3(-3.99f, -0.4f, 0f);
+                    pez1Transform.rotation = Quaternion.Euler(new Vector3(0f,0f,10f));
                     break;
                 case 150:
                     pez1Transform.position = new Vector3(-3.99f, -0.3f, 0f);
+                    pez1Transform.rotation = Quaternion.Euler(new Vector3(0f,0f,0f));
                     break;
                 case 155:
                     pez1Transform.position = new Vector3(-3.99f, -0.2f, 0f);
+                    pez1Transform.rotation = Quaternion.Euler(new Vector3(0f,0f,10f));
                     break;
                 case 160:
                     pez1Transform.position = new Vector3(-3.99f, -0.1f, 0f);
+                    pez1Transform.rotation = Quaternion.Euler(new Vector3(0f,0f,0f));
                     break;
-                case 165:
+                case 165: // Top High
                     pez1Transform.position = new Vector3(-3.99f, 0f, 0f);
+                    pez1Transform.rotation = Quaternion.Euler(new Vector3(0f,0f,-10f));
                     break;
                 case 170:
                     pez1Transform.position = new Vector3(-3.99f, -0.1f, 0f);
+                    pez1Transform.rotation = Quaternion.Euler(new Vector3(0f,0f,-15f));
                     break;
                 case 175:
                     pez1Transform.position = new Vector3(-3.99f, -0.2f, 0f);
+                    pez1Transform.rotation = Quaternion.Euler(new Vector3(0f,0f,-20f));
                     break;
                 case 180:
                     pez1Transform.position = new Vector3(-3.99f, -0.3f, 0f);
+                    pez1Transform.rotation = Quaternion.Euler(new Vector3(0f,0f,-30f));
                     break;
                 case 185:
                     pez1Transform.position = new Vector3(-3.99f, -0.4f, 0f);
+                    pez1Transform.rotation = Quaternion.Euler(new Vector3(0f,0f,-40f));
                     break;
                 case 190:
                     pez1Transform.position = new Vector3(-3.99f, -0.5f, 0f);
+                    pez1Transform.rotation = Quaternion.Euler(new Vector3(0f,0f,-50f));
                     break;
                 case 195:
                     pez1Transform.position = new Vector3(-3.99f, -0.6f, 0f);
+                    pez1Transform.rotation = Quaternion.Euler(new Vector3(0f,0f,-60f));
                     break;
                 case 200:
                     pez1Transform.position = new Vector3(-3.99f, -0.7f, 0f);
+                    pez1Transform.rotation = Quaternion.Euler(new Vector3(0f,0f,-70f));
                     break;
                 case 205:
                     pez1Transform.position = new Vector3(-3.99f, -0.8f, 0f);
+                    pez1Transform.rotation = Quaternion.Euler(new Vector3(0f,0f,-80f));
                     break;
                 case 210:
                     pez1Transform.position = new Vector3(-3.99f, -0.9f, 0f);
+                    pez1Transform.rotation = Quaternion.Euler(new Vector3(0f,0f,-90f));
                     break;
                 case 215:
                     pez1Transform.position = new Vector3(-3.99f, -1f, 0f);
+                    pez1Transform.rotation = Quaternion.Euler(new Vector3(0f,0f,-90f));
                     break;
                 case 220:
                     pez1Transform.position = new Vector3(-3.99f, -1.1f, 0f);
+                    pez1Transform.rotation = Quaternion.Euler(new Vector3(0f,0f,-90f));
                     break;
                 case 225:
                     pez1Transform.position = new Vector3(-3.99f, -1.2f, 0f);
+                    pez1Transform.rotation = Quaternion.Euler(new Vector3(0f,0f,-90f));
                     break;
                 // End Jump Animation
 
                 case 230:
                     pez1Transform.position = new Vector3(-4f, -1.2f, 0f);
+                    pez1Transform.rotation = Quaternion.Euler(new Vector3(0f,0f,0f));
                     _cont = 0;
                     break;
             }

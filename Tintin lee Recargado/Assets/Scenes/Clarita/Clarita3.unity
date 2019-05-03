@@ -1395,6 +1395,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1552289361}
   - component: {fileID: 1552289362}
+  - component: {fileID: 1552289363}
   m_Layer: 0
   m_Name: Brazo_Arriba
   m_TagString: Untagged
@@ -1410,7 +1411,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1552289360}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.504, y: 0.167, z: 0}
+  m_LocalPosition: {x: 1.427, y: 0.167, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1201236103}
@@ -1452,7 +1453,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -4
   m_Sprite: {fileID: 21300000, guid: 2e0b00980a445555fa62d5ead90a45b6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1464,6 +1465,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1552289363
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1552289360}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e9e335acff7ed2fabd1b2c3da7cc891, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1678135839
 GameObject:
   m_ObjectHideFlags: 0
@@ -1714,6 +1727,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2146272911}
   - component: {fileID: 2146272912}
+  - component: {fileID: 2146272913}
   m_Layer: 0
   m_Name: Caparazon
   m_TagString: Untagged
@@ -1783,3 +1797,15 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2146272913
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2146272910}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 668317b908fef38fca1f96456ba3d315, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
