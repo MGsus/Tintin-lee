@@ -3,7 +3,6 @@
 public class SapoScript : MonoBehaviour
 {
     private static GameObject _sapo;
-    private GameObject _sapoBody;
     private GameObject _sapoHand;
     private int _cont;
 
@@ -11,7 +10,6 @@ public class SapoScript : MonoBehaviour
     void Start()
     {
         _sapo = GameObject.FindGameObjectWithTag("Sapo");
-        _sapoBody = _sapo.transform.GetChild(0).gameObject;
         _sapoHand = _sapo.transform.GetChild(1).gameObject;
     }
 
