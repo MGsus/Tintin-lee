@@ -398,6 +398,7 @@ GameObject:
   m_Component:
   - component: {fileID: 256129501}
   - component: {fileID: 256129502}
+  - component: {fileID: 256129503}
   m_Layer: 0
   m_Name: Clarita
   m_TagString: Untagged
@@ -467,6 +468,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &256129503
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 256129500}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d55c996cca2acc06182de112889e90a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &285741200
 GameObject:
   m_ObjectHideFlags: 0
@@ -740,6 +753,7 @@ GameObject:
   m_Component:
   - component: {fileID: 881974635}
   - component: {fileID: 881974636}
+  - component: {fileID: 881974637}
   m_Layer: 0
   m_Name: Pez1
   m_TagString: Untagged
@@ -809,6 +823,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &881974637
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 881974634}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac4b7bab98468f2968581513e43f5f70, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1024406334
 GameObject:
   m_ObjectHideFlags: 0
