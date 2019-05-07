@@ -12,14 +12,70 @@ public class Clarita5Script : MonoBehaviour
         {
             switch (_cont)
             {
-                //TODO: Add more frames
                 case 1:
                     transform.position = new Vector2(transform.position.x, -0.313f); // Initial position
                     break;
                 case 10:
-                    transform.position = new Vector2(transform.position.x, -0.269f); // -0.269 Final position
+                    transform.position = new Vector2(transform.position.x, -0.3f);
+                    break;
+                case 15:
+                    transform.position = new Vector2(transform.position.x, -0.29f);
+                    break;
+                case 20:
+                    transform.position = new Vector2(transform.position.x, -0.285f);
+                    break;
+                case 25:
+                    transform.position = new Vector2(transform.position.x, -0.28f);
+                    break;
+                case 30:
+                    transform.position = new Vector2(transform.position.x, -0.269f); // Final position
+                    break;
+                case 35:
+                    transform.position = new Vector2(transform.position.x, -0.28f);
+                    break;
+                case 40:
+                    transform.position = new Vector2(transform.position.x, -0.285f);
+                    break;
+                case 45:
+                    transform.position = new Vector2(transform.position.x, -0.29f);
+                    break;
+                case 50:
+                    transform.position = new Vector2(transform.position.x, -0.3f);
                     break;
                 case 55:
+                    transform.position = new Vector2(transform.position.x, -0.313f); // Back to initial pos
+                    break;
+                case 65:
+                    transform.position = new Vector2(transform.position.x, -0.313f); // Initial position
+                    break;
+                case 70:
+                    transform.position = new Vector2(transform.position.x, -0.3f);
+                    break;
+                case 75:
+                    transform.position = new Vector2(transform.position.x, -0.29f);
+                    break;
+                case 80:
+                    transform.position = new Vector2(transform.position.x, -0.285f);
+                    break;
+                case 85:
+                    transform.position = new Vector2(transform.position.x, -0.28f);
+                    break;
+                case 90:
+                    transform.position = new Vector2(transform.position.x, -0.269f); // Final position
+                    break;
+                case 95:
+                    transform.position = new Vector2(transform.position.x, -0.28f);
+                    break;
+                case 100:
+                    transform.position = new Vector2(transform.position.x, -0.285f);
+                    break;
+                case 105:
+                    transform.position = new Vector2(transform.position.x, -0.29f);
+                    break;
+                case 110:
+                    transform.position = new Vector2(transform.position.x, -0.3f);
+                    break;
+                case 115:
                     transform.position = new Vector2(transform.position.x, -0.313f); // Back to initial pos
                     break;
                 case 200:
@@ -31,14 +87,70 @@ public class Clarita5Script : MonoBehaviour
         {
             switch (_cont)
             {
-                //TODO: Add more frames
                 case 1:
                     transform.position = new Vector2(transform.position.x, -0.287f); // Initial position
                     break;
                 case 10:
+                    transform.position = new Vector2(transform.position.x, -0.2752f);
+                    break;
+                case 15:
+                    transform.position = new Vector2(transform.position.x, -0.2634f);
+                    break;
+                case 20:
+                    transform.position = new Vector2(transform.position.x, -0.2516f);
+                    break;
+                case 25:
+                    transform.position = new Vector2(transform.position.x, -0.2398f);
+                    break;
+                case 30:
                     transform.position = new Vector2(transform.position.x, -0.228f); //-0.228 Final position
                     break;
+                case 35:
+                    transform.position = new Vector2(transform.position.x, -0.2398f);
+                    break;
+                case 40:
+                    transform.position = new Vector2(transform.position.x, -0.2516f);
+                    break;
+                case 45:
+                    transform.position = new Vector2(transform.position.x, -0.2634f);
+                    break;
+                case 50:
+                    transform.position = new Vector2(transform.position.x, -0.2752f);
+                    break;
                 case 55:
+                    transform.position = new Vector2(transform.position.x, -0.287f); // Back to initial pos
+                    break;
+                case 65:
+                    transform.position = new Vector2(transform.position.x, -0.287f); // Initial position
+                    break;
+                case 70:
+                    transform.position = new Vector2(transform.position.x, -0.2752f);
+                    break;
+                case 75:
+                    transform.position = new Vector2(transform.position.x, -0.2634f);
+                    break;
+                case 80:
+                    transform.position = new Vector2(transform.position.x, -0.2516f);
+                    break;
+                case 85:
+                    transform.position = new Vector2(transform.position.x, -0.2398f);
+                    break;
+                case 90:
+                    transform.position = new Vector2(transform.position.x, -0.228f); //-0.228 Final position
+                    break;
+                case 95:
+                    transform.position = new Vector2(transform.position.x, -0.2398f);
+                    break;
+                case 100:
+                    transform.position = new Vector2(transform.position.x, -0.2516f);
+                    break;
+                case 105:
+                    transform.position = new Vector2(transform.position.x, -0.2634f);
+                    break;
+                case 110:
+                    transform.position = new Vector2(transform.position.x, -0.2752f);
+                    break;
+                case 115:
                     transform.position = new Vector2(transform.position.x, -0.287f); // Back to initial pos
                     break;
                 case 200:
