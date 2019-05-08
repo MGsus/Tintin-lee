@@ -122,6 +122,7 @@ GameObject:
   m_Component:
   - component: {fileID: 46510154}
   - component: {fileID: 46510155}
+  - component: {fileID: 46510156}
   m_Layer: 0
   m_Name: Pato
   m_TagString: Untagged
@@ -191,6 +192,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &46510156
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 46510153}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e67328f0759e26578f9610e0e472ee1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &75636122
 GameObject:
   m_ObjectHideFlags: 0
@@ -570,6 +583,7 @@ GameObject:
   m_Component:
   - component: {fileID: 446535623}
   - component: {fileID: 446535624}
+  - component: {fileID: 446535625}
   m_Layer: 0
   m_Name: Conejos
   m_TagString: Untagged
@@ -585,7 +599,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 446535622}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.24, y: 0.49, z: 0}
+  m_LocalPosition: {x: -4.208, y: 0.55, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 75636123}
@@ -639,6 +653,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &446535625
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 446535622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 756dbbaa83e7830ccbc9c60f24219319, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &643010123
 GameObject:
   m_ObjectHideFlags: 0
@@ -1026,6 +1052,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1226310316}
   - component: {fileID: 1226310317}
+  - component: {fileID: 1226310318}
   m_Layer: 0
   m_Name: Sapo
   m_TagString: Untagged
@@ -1041,7 +1068,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1226310315}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.97, y: 0.37, z: 0}
+  m_LocalPosition: {x: -1.81, y: 0.37, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 75636123}
@@ -1095,6 +1122,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1226310318
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1226310315}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea27ce1d7c9cbfe258b1afcc6182bd88, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1389639376
 GameObject:
   m_ObjectHideFlags: 0
