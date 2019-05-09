@@ -13,6 +13,8 @@ TagManager:
   - Pato
   - Sapo
   - Tintin
+  - NextBtn3
+  - BackBtn
   layers:
   - Default
   - TransparentFX

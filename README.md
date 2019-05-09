@@ -1,6 +1,7 @@
-# **Tintin-lee** 
+# **Tintin-lee Recargado** 
 
 ![GitHub](https://img.shields.io/github/license/MGsus/Tintin-lee.svg?color=goood&style=flat-square)
+![GitHub stars](https://img.shields.io/github/stars/MGsus/Tintin-lee.svg)
 
 
 ¡Bienvenido al repositorio del proyecto Tintin lee **Recargado**!
@@ -22,10 +23,8 @@ El proyecto Tintin lee Recargado está basado en el proyecto "Desarrollo de una 
     * Estudiante Ingeniería de Sistemas e Informática en la Universidad Pontificia Bolivariana Seccional Bucaramanga
 
 
-[Página Web Tintín lee](https://mgsus.github.io/Tintin-lee/)
-
-## Licencia
-
-Aferro GPL Versión 3.0
+[GitHub Pages Tintín lee](https://mgsus.github.io/Tintin-lee/)
 
 ----------
+
+Copyright © 2010 Tintin lee. Todos los derechos reservados

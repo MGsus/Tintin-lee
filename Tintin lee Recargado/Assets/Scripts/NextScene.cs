@@ -20,8 +20,7 @@ public class NextScene : MonoBehaviour
 
     private void OnMouseOver()
     {
-        if (this)
-        {
+       
             var _tNow = Time.time;
             if (CompareTag("NextBtn"))
             {
@@ -30,25 +29,39 @@ public class NextScene : MonoBehaviour
                     _tIni = _tNow + DeltaT;
                     transform.position = new Vector3(4.62f, -1.91f);
                 }
-                else
+                else{
                     transform.position = new Vector3(4.39f, -1.91f);
+                    }
             }
-            else
+            else if (CompareTag("NextBtn3"))
             {
                 if (_tNow > _tIni)
                 {
                     _tIni = _tNow + DeltaT;
-                    transform.position = new Vector3(2.31f, -1.91f);
+                    transform.position = new Vector3(6.17f, -1.91f);
                 }
-                else
-                    transform.position = new Vector3(2.50f, -1.91f);
+                else{
+                    transform.position = new Vector3(6f, -1.91f);
+                    }
             }
-        }
+            else if (CompareTag("BackBtn"))
+            {
+                if (_tNow > _tIni)
+                {
+                    _tIni = _tNow + DeltaT;
+                    transform.position = new Vector3(3.9f, -1.91f);
+                }
+                else{
+                    transform.position = new Vector3(4f, -1.91f);
+                    }
+            }
+           
+        
     }
 
     private void OnMouseExit()
     {
-        transform.position = CompareTag("NextBtn") ? new Vector3(4.62f, -1.91f) : new Vector3(2.31f, -1.91f);
+        // transform.position = CompareTag("NextBtn") ? new Vector3(4.62f, -1.91f) : new Vector3(2.31f, -1.91f);
     }
 
     private void OnMouseDown()
