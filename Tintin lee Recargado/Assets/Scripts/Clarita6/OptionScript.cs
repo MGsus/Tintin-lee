@@ -8,17 +8,15 @@ public class OptionScript : MonoBehaviour
 {
     //Scene name for change by click on Olvidadiza Button
     public string sceneName;
-    private int timer = 0;
+    public AudioClip olvidadiza;
+    public AudioClip alegre;
+    public AudioClip generosa;
+    public AudioClip grosera;
+    public AudioClip intentalo;
+    public AudioClip juiciosa;
+    public AudioClip amable;
+    public AudioClip bien;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-    }
 
     void OnMouseOver()
     {
@@ -34,17 +32,35 @@ public class OptionScript : MonoBehaviour
     {
         if (gameObject.CompareTag("Olvidadiza"))
         {
-            // TODO Play congratulations sound
-
-            for (timer = 0; timer < 5000; timer++)
-                print(timer);
-
+            SoundManager.Instance.PlaySingle(bien);
             SceneManager.LoadScene(sceneName);
         }
         else
+            SoundManager.Instance.PlaySingle(intentalo);
+    }
+
+    private void OnMouseEnter()
+    {
+        switch (gameObject.name)
         {
-            // Play fail sound
-            print(gameObject.name);
+            case "BtnAlegre":
+                SoundManager.Instance.PlaySingle(alegre);
+                break;
+            case "BtnGenerosa":
+                SoundManager.Instance.PlaySingle(generosa);
+                break;
+            case "BtnGrosera":
+                SoundManager.Instance.PlaySingle(grosera);
+                break;
+            case "BtnAmable":
+                SoundManager.Instance.PlaySingle(amable);
+                break;
+            case "BtnJuiciosa":
+                SoundManager.Instance.PlaySingle(juiciosa);
+                break;
+            case "BtnOlvidadiza":
+                SoundManager.Instance.PlaySingle(olvidadiza);
+                break;
         }
     }
 }

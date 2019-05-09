@@ -10,6 +10,7 @@ public class ClaritaScript : MonoBehaviour
     private static GameObject parentGameObject;
     private GameObject claritaHead;
     private GameObject claritaHeadL;
+    public AudioClip clarita;
     private int cont;
 
     // Start is called before the first frame update
@@ -20,9 +21,9 @@ public class ClaritaScript : MonoBehaviour
         claritaHeadL = parentGameObject.transform.GetChild(1).gameObject;
     }
 
-    // Update is called once per frame
-    private void FixedUpdate()
+    private void OnMouseEnter()
     {
+        SoundManager.Instance.PlaySingle(clarita);
     }
 
     private void OnMouseOver()
@@ -37,12 +38,12 @@ public class ClaritaScript : MonoBehaviour
                 case 60:
                     claritaHead.SetActive(false);
                     claritaHeadL.SetActive(true);
-                    parentGameObject.transform.Rotate(new Vector3(0,0,1), -3f);
+                    parentGameObject.transform.Rotate(new Vector3(0, 0, 1), -3f);
                     break;
                 case 120:
                     claritaHead.SetActive(true);
                     claritaHeadL.SetActive(false);
-                    parentGameObject.transform.Rotate(new Vector3(0,0,-1),-3f);
+                    parentGameObject.transform.Rotate(new Vector3(0, 0, -1), -3f);
                     cont = 0;
                     break;
             }
@@ -56,7 +57,7 @@ public class ClaritaScript : MonoBehaviour
             claritaHead.SetActive(true);
             claritaHeadL.SetActive(false);
             parentGameObject.transform.localScale = new Vector3(1, 1, 1);
-            parentGameObject.transform.rotation = new Quaternion(0,0,0,0);
+            parentGameObject.transform.rotation = new Quaternion(0, 0, 0, 0);
         }
     }
 

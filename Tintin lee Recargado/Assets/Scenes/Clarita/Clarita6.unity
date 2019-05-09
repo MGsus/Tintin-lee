@@ -535,6 +535,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneName: 
+  olvidadiza: {fileID: 0}
+  alegre: {fileID: 8300000, guid: 5c45ab0aa4a725447973d87e96b0067b, type: 3}
+  generosa: {fileID: 0}
+  grosera: {fileID: 0}
+  intentalo: {fileID: 8300000, guid: 7c244e975f323cf44a5549fa954900be, type: 3}
+  juiciosa: {fileID: 0}
+  amable: {fileID: 0}
+  bien: {fileID: 0}
 --- !u!114 &352897085
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -684,6 +692,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneName: 
+  olvidadiza: {fileID: 0}
+  alegre: {fileID: 0}
+  generosa: {fileID: 0}
+  grosera: {fileID: 8300000, guid: 0b7691af87b71084395c369a484256de, type: 3}
+  intentalo: {fileID: 8300000, guid: 7c244e975f323cf44a5549fa954900be, type: 3}
+  juiciosa: {fileID: 0}
+  amable: {fileID: 0}
+  bien: {fileID: 0}
 --- !u!114 &408795371
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -833,6 +849,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneName: 
+  olvidadiza: {fileID: 0}
+  alegre: {fileID: 0}
+  generosa: {fileID: 0}
+  grosera: {fileID: 0}
+  intentalo: {fileID: 8300000, guid: 7c244e975f323cf44a5549fa954900be, type: 3}
+  juiciosa: {fileID: 8300000, guid: c7b38c876a9cb1948b453b14509881f9, type: 3}
+  amable: {fileID: 0}
+  bien: {fileID: 0}
 --- !u!114 &554104751
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1935,6 +1959,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneName: Clarita7
+  olvidadiza: {fileID: 8300000, guid: 19678dd9dcfb3e247ba3b5980dae7aae, type: 3}
+  alegre: {fileID: 0}
+  generosa: {fileID: 0}
+  grosera: {fileID: 0}
+  intentalo: {fileID: 0}
+  juiciosa: {fileID: 0}
+  amable: {fileID: 0}
+  bien: {fileID: 8300000, guid: c6b7796020d649244b804abb997a1093, type: 3}
 --- !u!114 &1674077761
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2084,6 +2116,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneName: 
+  olvidadiza: {fileID: 0}
+  alegre: {fileID: 0}
+  generosa: {fileID: 8300000, guid: 78a84f9c4043a3b42b74d64e1be06548, type: 3}
+  grosera: {fileID: 0}
+  intentalo: {fileID: 8300000, guid: 7c244e975f323cf44a5549fa954900be, type: 3}
+  juiciosa: {fileID: 0}
+  amable: {fileID: 0}
+  bien: {fileID: 0}
 --- !u!114 &1851246495
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2312,6 +2352,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneName: 
+  olvidadiza: {fileID: 0}
+  alegre: {fileID: 0}
+  generosa: {fileID: 0}
+  grosera: {fileID: 0}
+  intentalo: {fileID: 8300000, guid: 7c244e975f323cf44a5549fa954900be, type: 3}
+  juiciosa: {fileID: 0}
+  amable: {fileID: 8300000, guid: f04bc1b3980a8384da51f2f38a47868f, type: 3}
+  bien: {fileID: 0}
 --- !u!114 &1930655025
 MonoBehaviour:
   m_ObjectHideFlags: 0
