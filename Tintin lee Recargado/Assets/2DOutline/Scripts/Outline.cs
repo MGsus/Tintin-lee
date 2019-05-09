@@ -157,6 +157,7 @@ public class Outline : MonoBehaviour
 		vOutlineManager.RemoveOutline(this);
     }
 
+
 	//ONLY work on mouseover type
 	void OnMouseOver()
 	{

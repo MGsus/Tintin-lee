@@ -20,6 +20,6 @@ public class ClaritaLevelScrpt : MonoBehaviour
 
     private void OnMouseDown()
     {
-        SceneManager.LoadScene("Clarita1");
+        SceneManager.LoadScene("Clarita");
     }
 }
