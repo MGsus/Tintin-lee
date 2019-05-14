@@ -4,6 +4,8 @@
 [Bb]uild/
 [Bb]uilds/
 Assets/AssetStoreTools*
+Plugins
+Plugins.meta
 
 # Visual Studio cache directory
 .vs/

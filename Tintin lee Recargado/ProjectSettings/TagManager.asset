@@ -3,7 +3,18 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Olvidadiza
+  - Clarita1
+  - LagrimaDer
+  - LagrimaIzq
+  - NextBtn
+  - Pez1
+  - Pato
+  - Sapo
+  - Tintin
+  - NextBtn3
+  - BackBtn
   layers:
   - Default
   - TransparentFX
@@ -13,7 +24,7 @@ TagManager:
   - UI
   - 
   - 
-  - 
+  - Outline
   - 
   - 
   - 
