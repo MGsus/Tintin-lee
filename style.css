@@ -1403,7 +1403,7 @@ form textarea {
     display: block; }
 
 .page-head {
-  background: #ed5151;
+  background: #ff6600;
   color: white;
   text-align: center;
   padding: 50px 0; }
@@ -1413,7 +1413,7 @@ form textarea {
     margin: 0; }
 
 .hero {
-  background: #ed5151;
+  background: #ff6600;
   text-align: center;
   /* padding: 50px 0; */}
   .hero img {
@@ -1424,7 +1424,7 @@ form textarea {
     color: white; }
     .hero .hero-content span {
       padding: 10px;
-      background-color: #b23d3d;
+      background-color: #ff6600;
       display: inline-block;
       margin-bottom: 10px;
       font-size: 20px;
@@ -1448,7 +1448,7 @@ form textarea {
     .cta {
       text-align: center; } }
   .cta span {
-    color: #ed5151;
+    color: #ff6600;
     font-weight: 700; }
   .cta h2 {
     margin: 0;
