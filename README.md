@@ -23,7 +23,7 @@ El proyecto Tintin lee Recargado está basado en el proyecto "Desarrollo de una 
     * Estudiante Ingeniería de Sistemas e Informática en la Universidad Pontificia Bolivariana Seccional Bucaramanga
 
 
-[GitHub Pages Tintín lee](https://mgsus.github.io/Tintin-lee/)
+[Página Web Tintín lee](https://mgsus.github.io/Tintin-lee-Recargado/)
 
 ----------
 
