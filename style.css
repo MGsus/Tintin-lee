@@ -228,7 +228,7 @@ ul, ol {
 
 a {
   text-decoration: none;
-  color: #ed5151; }
+  color: #ff6600; }
 
 address {
   font-style: normal; }
@@ -253,7 +253,7 @@ form textarea {
  * Reusable Components Style
  */
 .button, form input[type="submit"], form button, form input[type="reset"] {
-  background: #ed5151;
+  background: #ff6600;
   color: white;
   padding: 10px;
   display: inline-block; }
@@ -271,7 +271,7 @@ form textarea {
   height: 70px;
   border-radius: 50%;
   display: inline-block;
-  background: #ed5151;
+  background: #ff6600;
   text-align: center;
   padding-top: 20px;
   position: absolute;
@@ -295,7 +295,7 @@ form textarea {
     display: block;
     width: 100%; }
   .team figcaption {
-    background: #ed5151;
+    background: #ff6600;
     color: white;
     padding: 10px 20px;
     text-align: center; }
@@ -367,13 +367,13 @@ form textarea {
       width: 20px;
       height: 20px;
       border: 3px solid #ede6e6;
-      box-shadow: 0 0 0 2px #ed5151;
+      box-shadow: 0 0 0 2px #ff6600;
       border-radius: 50%;
       display: block;
       overflow: hidden;
       text-indent: -9999px; }
       .testimonial-slider .flex-control-nav li a.flex-active {
-        background-color: #ed5151; }
+        background-color: #ff6600; }
 
 .client-grid {
   *zoom: 1; }
@@ -1366,7 +1366,7 @@ form textarea {
         width: 100%;
         left: 0;
         height: 2px;
-        background: #ed5151;
+        background: #ff6600;
         position: absolute;
         opacity: 0;
         -webkit-transition: .3s ease;
@@ -1384,7 +1384,7 @@ form textarea {
 
 .mobile-navigation {
   clear: both;
-  background: #ed5151;
+  background: #ff6600;
   display: none;
   margin-bottom: 20px; }
   @media screen and (min-width: 991px) {
@@ -1470,7 +1470,7 @@ form textarea {
     margin-top: 30px; } }
 
 .contact-area {
-  background-color: #ed5151;
+  background-color: #ff6600;
   color: white; }
   .contact-area address {
     font-size: 30px;
@@ -1500,7 +1500,7 @@ form textarea {
   .site-footer a {
     color: #9a9ca1; }
     .site-footer a:hover {
-      color: #ed5151; }
+      color: #ff6600; }
   .site-footer .dash-list {
     list-style: none; }
     .site-footer .dash-list li {
@@ -1526,7 +1526,7 @@ form textarea {
   margin-right: 10px;
   margin-bottom: 10px; }
   .social-links a:hover {
-    background-color: #ed5151;
+    background-color: #ff6600;
     color: white; }
 
 /*# sourceMappingURL=style.css.map */
